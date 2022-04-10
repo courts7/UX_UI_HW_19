@@ -1,51 +1,39 @@
 
-
 body {
   margin: 0;
 }
-nav {
-  background: #7C758A;
+nav ul,nav ol {
+  list-style: none;
+  list-style-image: none;
 }
-
-nav ul {
-  font-size: 0;
+nav ul,nav ol, nav li {
   margin: 0;
   padding: 0;
+  float: left;
 }
-
-nav ul li a {
-  color: #373738;
+nav a {
   display: block;
-  font-size: 14pt;
-  padding: 15px 14px ;
-  transition: 0.3s linear;
+  padding: 1em;
+  text-decoration: none;
+  color: #d0d0d0;
 }
-
-nav ul li:hover{
-  background: #7C758A;
+nav ul ul {
+  max-width: 11em;
+  background-color: #585858;
 }
-
-nav ul li ul {
-  border-bottom: 5px solid #2ba0bd;
-  display: none;
+nav ul ul li {
+  width: 100%;
+}
+nav ul ul {
+  max-width: 11em;
+  background-color: #585858;
   position: absolute;
-  width: 250px;
+  z-index: 99;
+  display: none;
 }
-nav ul li ul li {
-  border-top: 1px solid #444;
+nav li:hover ul {
   display: block;
 }
-
-nav ul li ul a :hover {
-  background: #126d9b;
-
-}
-nav ul li ul li a {
-  background:#373737 ;
-  display: block;
-  padding: 10px 14px ;
-}
-
 
 
 .heroImg {
@@ -143,9 +131,11 @@ width:50%;
       float: right;
   }
   p  {
+    display: block;
       margin-top:0 ;
-      font-size:16pt;
-      padding: 60px;
+      font-size:16;
+
+   
   }
 
   p span {
