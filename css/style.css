@@ -1,0 +1,163 @@
+
+
+body {
+  margin: 0;
+}
+nav {
+  background: #7C758A;
+}
+
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #373738;
+  display: block;
+  font-size: 14pt;
+  padding: 15px 14px ;
+  transition: 0.3s linear;
+}
+
+nav ul li:hover{
+  background: #7C758A;
+}
+
+nav ul li ul {
+  border-bottom: 5px solid #2ba0bd;
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+nav ul li ul li {
+  border-top: 1px solid #444;
+  display: block;
+}
+
+nav ul li ul a :hover {
+  background: #126d9b;
+
+}
+nav ul li ul li a {
+  background:#373737 ;
+  display: block;
+  padding: 10px 14px ;
+}
+
+
+
+.heroImg {
+  background-color: black;
+  padding: 200px 15px;
+}
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #7C758A;
+  text-align: center;
+  justify-content: center;
+}
+.content img{
+  width: 200px;
+  height: auto;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+/*My skills */
+
+.flexContainer {
+  display: flex;
+  padding: 60px;
+  background-color:aliceblue;
+}
+.flexContainer img {
+  width: 50%;
+  align-items: center;
+}
+
+.flexContainer div {
+border: 5px solid #7C758A;
+margin: 20px;
+padding: 20px;
+justify-content: center;
+width:50%;
+} 
+
+.flexContainer h1 {
+  align-items: center;
+  font-size: 30px;
+
+}
+/*My Work */
+
+.myWork {
+  padding: 2rem;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(autofit,minmax 200px 1fr);
+  }
+  .workGrid {
+      padding: 2em;
+      border-radius: 3em;
+      box-shadow: 10px 10px 30px black;
+      background-color: aliceblue;
+  }
+  .myWork img {
+    width: 30%;
+    height: auto;
+     float:left;
+     align-items: center;
+  }
+  
+  .myGrid span {
+      display: inline;
+      float: right;
+  }
+  p  {
+      margin-top:0 ;
+      font-size:16pt;
+      padding: 60px;
+  }
+
+  p span {
+      position: relative;
+      margin: left 15px; 
+  }
+@media only screen and (max-width: 600px) { 
+      .flexContainer { 
+        flex-direction: column;
+    
+      }}
+
+
+  
+
