@@ -2,6 +2,10 @@
 body {
   margin: 0;
 }
+.site-navigation{
+  background: #373738;
+}
+
 nav ul,nav ol {
   list-style: none;
   list-style-image: none;
@@ -124,6 +128,7 @@ width:50%;
     height: auto;
      float:left;
      align-items: center;
+     padding-right: 50px;
   }
   
   .myGrid span {
@@ -148,6 +153,7 @@ width:50%;
     
       }}
 
-
+     
+      
   
 
