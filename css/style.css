@@ -60,7 +60,19 @@ img {
   width: 100px;
   height: auto;
 }
+
+#myLogo {
+  opacity:1;
+  transition: opacity 0 3s ease-in-out;
+}
+
+#myLogo .fade {
+  opacity: 100;
+transition: opacity 0.3s ease-in-out;
+
+}
 button {
+float: left;
   padding: 15px;
   background-color: #373738;
   color: white;
