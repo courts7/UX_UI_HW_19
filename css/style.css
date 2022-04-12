@@ -1,10 +1,12 @@
 
 body {
   margin: 0;
+  background-color: #d0d0d0;
 }
 .site-navigation{
   background: #373738;
 }
+/*Navigation */
 
 nav ul,nav ol {
   list-style: none;
@@ -39,12 +41,13 @@ nav li:hover ul {
   display: block;
 }
 
-
 .heroImg {
+
   background-color: black;
   padding: 200px 15px;
 }
 .content {
+
   max-width: 400px;
   margin: 0 auto;
   padding: 50px;
@@ -52,10 +55,12 @@ nav li:hover ul {
   text-align: center;
   justify-content: center;
 }
+
 .content img{
   width: 200px;
   height: auto;
 }
+
 img {
   width: 100px;
   height: auto;
@@ -68,40 +73,28 @@ img {
 
 #myLogo .fade {
   opacity: 100;
-transition: opacity 0.3s ease-in-out;
+ transition: opacity 0.3s ease-in-out;
 
 }
 button {
-float: left;
+ position: relative;
   padding: 15px;
   background-color: #373738;
   color: white;
   font-size: 15px;
   border-radius: 4px;
   font-family: 'Fira Sans', sans-serif;
+}
 
-}
-footer {
-  background-color: #373738;
-  padding: 5px;
-  color: white;
-}
-footer ul {
-  list-style: none;
-  padding-left: 5px;
-}
-footer li {
-  display: inline-block;
-  padding: 0px 7px;
-  font-family: 'Fira Sans', sans-serif;
-
-}
 /*My skills */
 
+span .myskills{
+  position: relative;
+}
 .flexContainer {
   display: flex;
   padding: 60px;
-  background-color:aliceblue;
+  background-color: #d0d0d0;
 }
 .flexContainer img {
   width: 50%;
@@ -122,6 +115,19 @@ width:50%;
 
 }
 /*My Work */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:#7C758A;
+  margin-top: 10px;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3em;
+box-shadow: 10px 10px 30px black;
+}
 
 .myWork {
   padding: 2rem;
@@ -129,11 +135,12 @@ width:50%;
   grid-gap: 2em;
   grid-template-columns: repeat(autofit,minmax 200px 1fr);
   }
+
   .workGrid {
       padding: 2em;
       border-radius: 3em;
       box-shadow: 10px 10px 30px black;
-      background-color: aliceblue;
+  
   }
   .myWork img {
     width: 30%;
@@ -147,18 +154,34 @@ width:50%;
       display: inline;
       float: right;
   }
+
   p  {
     display: block;
       margin-top:0 ;
       font-size:16;
-
-   
   }
 
   p span {
       position: relative;
       margin: left 15px; 
   }
+
+/*Footer*/
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+    font-family: 'Fira Sans', sans-serif;}
+
 @media only screen and (max-width: 600px) { 
       .flexContainer { 
         flex-direction: column;
