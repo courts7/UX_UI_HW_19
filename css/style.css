@@ -42,13 +42,10 @@ nav li:hover ul {
 }
 
 .heroImg {
-
-  background-color: black;
   padding: 200px 15px;
 }
 .content {
-
-  max-width: 400px;
+ max-width: 400px;
   margin: 0 auto;
   padding: 50px;
   background-color: #7C758A;
