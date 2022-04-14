@@ -1,11 +1,8 @@
 console.log ("Hello World");
 
-let myLogo = document.getElementById('myLogo');
-document.getElementById('myButton1').onclick = function(){
-    myLogo.classlist('fade');
-
-}
-document.getElementById('myButton').addEventListener('click', myFunction);
+$( "button" ).click(function() {
+    $( "p" ).toggle();
+  });
 
 function myFunction() {
     alert ("404 Error Projects page coming soon");
@@ -22,3 +19,4 @@ $('html, body').animate({
 }
   
 }
+ 
