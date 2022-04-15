@@ -46,12 +46,15 @@ nav li:hover ul {
   padding: 200px 15px;
 }
 .content {
- max-width: 400px;
+ max-width: 450px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 40px;
   background-color: #7C758A;
   text-align: center;
   justify-content: center;
+  font-family:'Fira Sans', sans-serif; 
+  font-style: normal;
+  border-radius: 1rem;
 }
 
 .content img{
@@ -90,7 +93,7 @@ button {
 
 .flexContainer {
   display: flex;
-  padding: 60px;
+  padding: 30px;
   background-color: #d0d0d0;
   
 }

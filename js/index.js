@@ -1,6 +1,6 @@
 console.log ("Hello World");
 
-$( "button" ).click(function() {
+$ ( "button" ).on.click(function(change red) {
     $( "p" ).toggle();
   });
 
@@ -9,7 +9,7 @@ function myFunction() {
 
 if (this.hash !== "") {
     
-    event.preventDefault();
+    Event.preventDefault();
 var hash = this.hash;
 $('html, body').animate({
     scrollTop: $(hash).offset().top
