@@ -45,6 +45,27 @@ nav li:hover ul {
 .heroImg {
   padding: 200px 15px;
 }
+.rectangle {
+  position: absolute;
+width: 1440px;
+height: 172px;
+left: 0px;
+top: 461px;
+margin-top: 400px;
+background: linear-gradient(270deg, #5E677D 22.64%, rgba(94, 103, 125, 0) 100%);
+}
+.rectangle1 {
+  margin-top: 400px;
+  margin-left: 200px;
+position: absolute;
+width: 474px;
+height: 355px;
+left: 1px;
+top: 106px;
+
+background: linear-gradient(270deg, #64545A 0%, rgba(100, 84, 90, 0) 97.26%);
+border-radius: 10px;
+}
 .content {
  max-width: 450px;
   margin: 0 auto;
